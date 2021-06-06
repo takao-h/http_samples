@@ -15,7 +15,7 @@ func handler(w http.ResponseWriter , r *http.Request) {
     return
   }
   fmt.Println(string(dump))
-  fmt.Fprint(w, "<html><body>hello</body></html>\n")
+  fmt.Fprint(w, "<html><body>hello world</body></html>\n")
 }
 
 func main() {
